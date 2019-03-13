@@ -24,14 +24,6 @@ The conference is located at the Veranstaltungsforum Fürstenfeld in Fürstenfel
 
 Some [impressions from the conference](http://www.stefanv.com/article/9th-international-modelica-conference.html) kindly shared by Stefan Vorkoetter.
 
-# Exhibition and Sponsoring
-
-A [commercial exhibition](sponsors.md) will be arranged in conjunction to the conference. The exhibition will take place at Matteannexet at Lund University. The commercial exhibition will be integrated with the session halls, poster exhibition and the catering services and will thus be an excellent exhibition window towards the expected 300-400 delegates.
-
-The exhibition will be open during conference hours, 11-12 March 2014. Build-up will take place 10 March from 07.00. Please note that heavy goods can only be delivered between 07.00-08.00 in the morning or 13.00-14.00 in the afternoon due to exams in the building. Therefore no noise is possible outside these hours.
-
-The program structure will make time for the participants to visit your stand. This means that there are excellent opportunities for dialogue between exhibitors and conference participants.
-
 # Keynote Speeches
 
 ## Prof. Karl Johan Åström
