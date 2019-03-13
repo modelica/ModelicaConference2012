@@ -1,0 +1,732 @@
+/*************************************************************/
+/* imsd title style */
+/*************************************************************/
+.main_title
+{
+    font-family: verdana;
+    font-size: 22px;
+    color: #3a98f2;
+    position: relative;
+    line-height: 22px;
+}
+
+.sub_title
+{
+    font-family: verdana;
+    font-size: 18px;
+    color: #3a98f2;
+    position: relative;
+    line-height: 18px;
+}
+
+
+/*************************************************************/
+/* general */
+/*************************************************************/
+html 
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-vertical;
+}
+
+/*************************************************************/
+/* sponsor styles */
+/*************************************************************/
+a.asme 
+{
+    width:70px;
+    height:43px;
+    cursor:pointer;
+    background-image:url('../images/logo_asme_bw.gif');
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a.asme:hover 
+{
+    background-image:url('../images/logo_asme.gif');
+}
+
+a.iftomm 
+{
+    width:57px;
+    height:52px;
+    cursor:pointer;
+    background-image:url('../images/logo_iftomm_bw.gif');
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a.iftomm:hover 
+{
+    background-image:url('../images/logo_iftomm.gif');
+}
+
+a.iutam 
+{
+    width:70px;
+    height:28px;
+    cursor:pointer;
+    background-image:url('../images/logo_iutam_bw.gif');
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a.iutam:hover 
+{
+    background-image:url('../images/logo_iutam.gif');
+}
+
+a.jsme 
+{
+    width:50px;
+    height:47px;
+    cursor:pointer;
+    background-image:url('../images/logo_jsme_bw.gif');
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a.jsme:hover 
+{
+    background-image:url('../images/logo_jsme.gif');
+}
+
+a.ksme 
+{
+    width:42px;
+    height:42px;
+    cursor:pointer;
+    background-image:url('../images/logo_ksme_bw.gif');
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a.ksme:hover 
+{
+    background-image:url('../images/logo_ksme.gif');
+}
+
+
+
+/*************************************************************/
+/* left overs */
+/*************************************************************/
+
+
+/*
+.text 
+{
+    line-height: 160%;
+}
+
+body 
+{
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+td 
+{
+    font-family: verdana;
+    font-size: 11px;
+    line-height: 180%;
+}
+
+hr 
+{
+    border: none 0;
+    border-top: 1px dashed #828787;
+    height: 1px;
+} 
+
+.link			
+{
+    COLOR:#000000;
+    TEXT-DECORATION:none}
+A:link          	
+{
+    /*COLOR:#ed5d00;*/
+    COLOR:#3a98f2;
+    font-weight:normal;
+    text-decoration:none}
+A:visited		
+{
+    /*COLOR:#ed5d00;*/
+    COLOR:#3a98f2;
+    font-weight:normal;
+    text-decoration:none}
+A:active		
+{
+    /*COLOR:#ed5d00;*/
+    COLOR:#3a98f2;
+    font-weight:normal;
+    text-decoration:none}
+A:hover			
+{
+    /*COLOR:#ed5d00;*/
+    COLOR:#3a98f2;
+    font-weight:normal;
+    text-decoration:underline}
+
+
+TEXTAREA 
+{
+
+    background-color: #ffffff;
+    COLOR: #000000;
+    FONT-FAMILY: verdana;
+    FONT-SIZE: 8pt;
+    MARGIN-BOTTOM: 1px;
+    MARGIN-TOP: 1px;
+    border: 1px solid #A5ACB2;
+}
+
+/************************************************************/
+/* Registration Form                                        */
+/************************************************************/
+SELECT 
+{
+
+    background-color: #ffffff;
+    width: 222px;
+    COLOR: #000000;
+    FONT-FAMILY: verdana;
+    FONT-SIZE: 8pt;
+    MARGIN-BOTTOM: 1px;
+    MARGIN-TOP: 1px;
+    border: 1px solid #3a98f2;
+
+}
+
+INPUT 
+{
+
+    background-color: #ffffff;
+
+    COLOR: #000000;
+    FONT-FAMILY: verdana;
+    FONT-SIZE: 8pt;
+    MARGIN-BOTTOM: 1px;
+    MARGIN-TOP: 1px;
+    border: 1px solid #A5ACB2;
+}
+
+.CHECK
+{
+	border: 5px solid #3a98f2;
+}
+
+.star
+{
+        color:red;
+}
+
+.button
+{
+        width:100px; border:#000000 /*background-color:#3a98f2;*/
+}
+.field
+{
+	width:220px; border: 1px solid #3a98f2;
+}
+.field_
+{
+	width:220px; border: 1px solid #f30000;
+}
+.field1
+{
+	width:220px;
+}
+.field2
+{
+	width:220px;
+}
+.regcomp
+{
+	font-size: 14px;font-weight:bold;
+}
+/*****************************************************/
+/*Travel                                             */
+/*****************************************************/
+
+img.sbahn
+{
+	margin: 0px 0px -3.5px 0px;
+}
+
+
+
+
+
+
+/* coolmenus-alaspudotusvalikon - suomenkielisen osan - tyylej� */
+/*
+.clCMEvent
+{
+    position:absolute;
+    z-index:300;
+    width:100%;
+    height:100%;
+    clip:rect(0,100%,100%,0);
+    left:0;
+    top:0;
+    visibility:hidden;
+}
+.clCMAbs
+{
+    position:absolute;
+    width:10;
+    height:10;
+    left:0;
+    top:0;
+    visibility:hidden;
+}
+
+.clT,.clTover,.clS,.clSover,.clS2,.clS2over
+{
+    padding:0px;
+    position:absolute;
+    overflow:hidden;
+    width:130;
+    height:16;
+    cursor:pointer;
+    cursor:hand;
+}
+.clT,.clTover
+{
+    padding:0px;
+    font-family:verdana;
+    font-size:10px;
+    font-weight:normal;
+}
+.clT
+{
+    color:#000000;
+    layer-background-color: #828787;
+    background-color: #828787;
+}
+
+.clTover
+{
+    color:#000000;
+}
+.clS,.clSover
+{
+    padding:2px;
+    font-family:verdana;
+    font-size:10px;
+    font-weight:normal;
+    layer-background-color:#ffffff;
+    background-color:#ffffff;
+    text-align: left;
+    cursor:pointer;
+    cursor:hand;
+}
+
+.clS2,.clS2over
+{
+    padding:2px;
+    font-family:verdana;
+    font-size:10px;
+    layer-background-color:#ffffff;
+    background-color:#ffffff;
+    text-align: left;
+    cursor:pointer;
+    cursor:hand;
+}
+
+.clS,.clS2
+{
+    color:#000000;
+    background-color: #ffffff;
+    layer-background-color: #ffffff;
+}
+
+.clSover,.clS2over
+{
+    color:#000000;
+}
+
+
+.clTover
+{
+    layer-background-color:#dddddd;
+    background-color:#dddddd;
+}
+
+.clB
+{
+    layer-background-color: transparent;
+    background-color: transparent;
+    cursor:pointer;
+    cursor:hand;
+}
+
+.clB2
+{
+    layer-background-color: #828787;
+    background-color: #828787;
+    cursor:pointer;
+    cursor:hand;
+}
+
+.clBar
+{
+    layer-background-color: transparent;
+    background-color: transparent;
+    cursor:pointer;
+    cursor:hand;
+}
+
+
+.clSover, .clS2over
+{
+    layer-background-color: #f1f0f0;
+    background-color: #f1f0f0;
+}
+.clB
+{
+    position:absolute;
+    visibility:hidden;
+    z-index:300;
+}
+
+.clB2
+{
+    position:absolute;
+    visibility:hidden;
+    z-index:300;
+}
+
+.clBar
+{
+    position:absolute;
+    width:10;
+    height:10;
+    visibility:hidden}
+*/
+
+/* Travel-sivut */
+/*
+td.menu 
+{
+    color:white;
+    cursor:pointer;
+    background-image:url('../../../images/buttonback.jpg');
+    background-repeat:no-repeat;
+    width:119px;
+    height:66px;
+    font-family:Arial;
+    font-size:10pt;
+    vertical-align:center;
+    text-align:center;
+    text-decoration: none;
+    line-height: 120%;
+}
+
+*/
+
+
+
+
+
+
+/*
+.hakurivi 
+{
+
+    font-family: verdana;
+    font-size: 11px;
+}
+*/
+
+
+/* t�ll� koitetaan v�hent�� roskapalautteita yms. */
+/*
+#ei_mainoksia_kiitos 
+{
+
+    visibility: hidden;
+    display: none;
+}
+*/
+
+/* ajankohtaissivun uutisteksti */
+/*
+.uutisosa 
+{
+
+    background-color: #EEEEEE;
+    padding: 3px;
+}
+*/
+
+/* site admin menu */
+/* siteadminin p��valikko ylh��ll� */
+/*
+.siteadmin_valikko 
+{
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.siteadmin_valikko a:link 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+.siteadmin_valikko a:visited 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+.siteadmin_valikko a:active 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+.siteadmin_valikko a:hover 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight:bold;
+    color: #ffffff;
+    text-decoration: underline;
+}
+*/
+
+/* such training will lead to a sub-page link buttons */
+/* esim. koulutuksen alasivuille johtavat linkkinappulat */
+/*
+.alasivuvalikko 
+{
+
+    font-family: Verdana;
+    width: 154px;
+    height: 26px;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    border: 0px;
+    color: #000000;
+    background-color: #ffffff;
+    padding-left: 19px;
+}
+*/
+
+/* valikkolinkki == menu link */
+/*
+.valikkolinkki 
+{
+
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    color: #000000;
+}
+*/
+
+
+
+
+/* alaosa_teksti == bottom_text */
+/*
+.alaosa_teksti 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+}
+.alaosa_teksti a:link 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #ed5d00; 
+    text-decoration: none;
+}
+.alaosa_teksti a:visited 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #ed5d00; 
+    text-decoration: none;
+}
+.alaosa_teksti a:active 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #ed5d00; 
+    text-decoration: none;
+}
+.alaosa_teksti a:hover 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #ed5d00; 
+    text-decoration: underline;
+}
+*/
+
+
+
+
+
+
+
+/*
+.sivuvalikko 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+}
+.sivuvalikko a:link 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+.sivuvalikko a:visited 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+.sivuvalikko a:active 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+.sivuvalikko a:hover 
+{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #ed5d00;
+    text-decoration: none;
+}
+*/
+
+/*
+#koke_otsikkolinkki 
+{
+    text-decoration: none;
+}
+*/
+
+/*
+#yhteystiedot 
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+*/
+
+/*
+#training_valikko 
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+*/
+
+/*
+.tahti 
+{
+     color: #ed5d00; 
+}
+*/
+
+
+
+
+/*
+#radionapit input 
+{
+
+    background-color: #ffffff;
+
+    COLOR: #000000;
+    FONT-FAMILY: verdana;
+    FONT-SIZE: 8pt;
+    MARGIN-BOTTOM: 1px;
+    MARGIN-TOP: 1px;
+    padding: 2px;
+    border: 0px;
+}
+*/
+
+/*
+INPUT.lomakenappi 
+{
+
+    background-color: #ffffff;
+    color: #ed5d00; 
+    FONT-FAMILY: verdana;
+    FONT-SIZE: 8pt;
+    MARGIN-BOTTOM: 1px;
+    MARGIN-TOP: 1px;
+    width: 100px;
+    padding: 2px;
+    border: 1px solid #ed5d00;
+}
+*/
+
+/* siteadmin-lomake-tagi-napit */
+/*
+input.nappi 
+{
+    width: 120px;
+}
+*/
+
+/* ei toimi IE:lla, olkoon jotain plussaa muille selaimille */
+/*
+INPUT.lomakenappi:hover 
+{
+
+    border: 1px dashed;
+    background-color: #ed5d00;
+    COLOR: #ffffff;
+    FONT-FAMILY: verdana;
+    FONT-SIZE: 8pt;
+    MARGIN-BOTTOM: 1px;
+    MARGIN-TOP: 1px;
+    width: 100px;
+    padding: 2px;
+}
+*/
